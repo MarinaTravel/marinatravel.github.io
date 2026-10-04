@@ -55,7 +55,7 @@ function sendWA(e){
  e.preventDefault();
  const nama=document.getElementById('nama').value, layanan=document.getElementById('layananForm').value, tanggal=document.getElementById('tanggal').value, pesan=document.getElementById('pesanForm').value;
  // GANTI nomor di bawah dengan nomor WhatsApp bisnis Marina (format internasional, tanpa +)
- const nomor="6281234567890";
+ const nomor="6285240363432";
  const text=`Halo Marina Travel & Rental Car, saya ${nama}. Saya ingin menanyakan ${layanan} untuk tanggal ${tanggal}. ${pesan}`;
  window.open(`https://wa.me/${nomor}?text=${encodeURIComponent(text)}`,'_blank');
 }
